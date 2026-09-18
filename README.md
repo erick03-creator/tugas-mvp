@@ -1,50 +1,62 @@
-# Tugas MVP - Aplikasi To-Do
+# Sistem Inventaris Barang Kantor
 
 ## Deskripsi
 
-Aplikasi To-Do sederhana yang dibuat menggunakan Vue 3,
-Ionic, dan Capacitor.
+Sistem Inventaris Barang Kantor merupakan rancangan aplikasi
+untuk membantu pengelolaan data inventaris barang secara
+lebih terstruktur.
 
-Aplikasi ini membantu mahasiswa mencatat tugas kuliah
-yang perlu dikerjakan.
+Aplikasi ini dikembangkan sebagai bagian dari proyek
+Manajemen Proyek Perangkat Lunak (MPPL).
 
 ## Masalah
 
-Mahasiswa sering memiliki beberapa tugas perkuliahan
-yang harus dikerjakan. Tanpa pencatatan yang baik,
-tugas dapat terlupa.
+Pengelolaan data barang kantor membutuhkan pencatatan yang
+terstruktur agar informasi mengenai barang, kondisi, lokasi,
+dan penanggung jawab dapat lebih mudah dikelola dan dicari.
 
-Aplikasi ini dibuat sebagai solusi sederhana untuk
-mencatat tugas kuliah.
+Sistem ini dirancang sebagai solusi untuk membantu proses
+pencatatan dan pengelolaan data inventaris barang kantor.
 
 ## Target Pengguna
 
-Target pengguna aplikasi adalah mahasiswa yang ingin
-mencatat dan mengingat tugas perkuliahan mereka.
+Target pengguna sistem adalah pegawai atau petugas yang
+bertanggung jawab dalam pengelolaan dan pendataan inventaris
+barang kantor.
 
 ## Scope MVP
 
 Fitur yang termasuk dalam MVP:
 
-- Menampilkan halaman utama
-- Menampilkan Hello World
-- Menambahkan tugas
-- Menampilkan daftar tugas
-- Menggunakan komponen Ionic
-- Menjalankan aplikasi menggunakan Capacitor
+- Menampilkan daftar barang
+- Menambahkan data barang
+- Mengubah data barang
+- Menghapus data barang
+- Mencatat kondisi barang
+- Mencatat lokasi barang
+- Mencatat penanggung jawab barang
+- Mencari data barang
+
+## Fitur yang Belum Termasuk
+
+- Login dan autentikasi pengguna
+- Database online
+- Notifikasi
+- Laporan inventaris dalam bentuk PDF
+- Sinkronisasi antar perangkat
+- Manajemen hak akses pengguna
 
 ## Teknologi
 
 - Vue 3
+- Vite
 - Ionic Vue
 - Capacitor
-- Vite
 - JavaScript
 
-## Fitur yang Belum Termasuk
+## Cara Menjalankan
 
-- Login
-- Database online
-- Notifikasi
-- Sinkronisasi antar perangkat
-- Berbagi tugas dengan pengguna lain
+Install dependency:
+
+```bash
+npm install
